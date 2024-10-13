@@ -15,7 +15,10 @@
     src="https://unpkg.com/franken-ui@1.1.0/dist/js/icon.iife.js"
     type="module"
   ></script>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="/~cs6520159/meth-shop/output.css"
+  />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -31,7 +34,7 @@
 <aside class="w-60 bg-[#232f3e] h-dvh overflow-y-auto p-4 flex-none text-white">
   <?php 
     if ( !isset($_SESSION['username']) ) {
-      echo '<a href="http://202.44.40.193/~cs6520159/meth-shop/pages/login.php">
+      echo '<a href="/~cs6520159/meth-shop/pages/login.php">
         <button class="uk-button bg-[#146eb4] hover:bg-blue-300
                       w-full h-4 my-8
                       flex ">
