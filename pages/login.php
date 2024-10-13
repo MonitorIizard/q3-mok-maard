@@ -15,7 +15,6 @@
     src="https://unpkg.com/franken-ui@1.1.0/dist/js/icon.iife.js"
     type="module"
   ></script>
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -25,6 +24,11 @@
   <link
     rel="stylesheet"
     href="http://202.44.40.193/~cs6520159/meth-shop/global.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="/~cs6520159/meth-shop/output.css"
   />
 </head>
 
